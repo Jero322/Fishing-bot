@@ -31,7 +31,7 @@ if "user_image" not in st.session_state:
 # App Sidebar
 st.sidebar.title("Quick Resepie")
 st.sidebar.markdown("""
-- **Tio Feo**: pegale a la piñata **[here](https://www.miniplay.com/game/pinata-muncher)**.
+- **Papa Feo cantarin**: pegale a la piñata **[aqui](https://www.miniplay.com/game/pinata-muncher)**.
 """)
 
 # Sidebar Customize Chat Section
@@ -54,8 +54,7 @@ if custom_input:
 # Main App Layout
 st.title("QuickRecepie")
 st.markdown("""
-This chatbot helps you find, create, and learn recipes step by step
-using AI—your personal chef in the kitchen!
+Este chatbot es para que me mejores mi viaje de pesca
 """)
 
 # Add custom CSS for circular images and text alignment
@@ -153,7 +152,7 @@ for message in st.session_state.messages:
             """, unsafe_allow_html=True)
 
 # User input prompt
-if prompt := st.chat_input("Craving something? Let's find a recipe!"):
+if prompt := st.chat_input("Te haces Caca? Pues ve al baño feito"):
     # Display user message
     with st.container():
         # Encode user image if uploaded, else use the default image
@@ -205,5 +204,5 @@ if prompt := st.chat_input("Craving something? Let's find a recipe!"):
 # Footer
 st.markdown("""
 ---
-Built by Jeronimo.
+Creado por tomas especificamente para mi papa feo.
 """)
