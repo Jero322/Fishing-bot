@@ -31,7 +31,7 @@ if "user_image" not in st.session_state:
 # App Sidebar
 st.sidebar.title("Quick Resepie")
 st.sidebar.markdown("""
-- **QuickRecepie**: Cook Lasagna **[here](https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/)**.
+- **Tio Feo**: pegale a la piñata **[here](https://www.miniplay.com/game/pinata-muncher)**.
 """)
 
 # Sidebar Customize Chat Section
